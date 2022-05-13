@@ -1,0 +1,86 @@
+.App {
+  /* text-align: center; */
+  /* background-color:antiquewhite; */
+  /* background: #83a4d4; */
+  /* background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #b6fbff, #83a4d4); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.red {
+  color: red;
+}
+
+.App2 {
+  /* text-align: center; */
+  /* display: flex;
+  justify-content: center;
+  margin-left: 20vw;
+  flex-direction: column; */
+}
+.container {
+  /* width:auto; */
+  /* background: #ebebeb; */
+  border-radius: 6px;
+  margin: "0 20% 0 20%";
+  /* height: 600px; */
+  width: 600px;
+  margin-bottom: 100px;
+
+  padding: 5px;
+}
+.container2 {
+  width: auto;
+  background: #ebebeb;
+  border-radius: 6px;
+  /* margin: */
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+.bg{
+  /* background-image: url('/home/am-pc-63/Desktop/new_social_media/social-media-nodejs/Frontend/public/fb.jpg'); */
+  /* opacity: 0.1; */
+  /* visibility: 10%; */
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.RED {
+  border: 2px solid red;
+}
